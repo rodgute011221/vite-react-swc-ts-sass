@@ -1,5 +1,9 @@
 {
   "compilerOptions": {
+    "paths": {
+      "@/*": ["./app/*"],
+      "Global": ["./globals.ts"]
+    },
     // Module
     "target": "es6",
     "module": "esnext",
@@ -17,6 +21,8 @@
     "noUnusedLocals": true,
     "noImplicitReturns": true,
     "noImplicitAny": true,
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
 
     // Output
     "noEmit": true

@@ -15,5 +15,5 @@
     // Output
     "noEmit": true
   },
-  "files": ["vite.config.ts"]
+  "include": ["vite.config.ts"]
 }
