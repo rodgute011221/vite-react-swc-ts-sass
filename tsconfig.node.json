@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    // Module
+    "target": "es6",
+    "module": "esnext",
+    "moduleResolution": "bundler",
+    "moduleDetection": "force",
+    "skipLibCheck": true,
+    "isolatedModules": true,
+
+    "types": ["node"],
+
+    "noUncheckedSideEffectImports": true,
+    "noFallthroughCasesInSwitch": true,
+
+    // Output
+    "noEmit": true
+  },
+  "files": ["vite.config.ts"]
+}
