@@ -13,6 +13,10 @@
 
     "noUncheckedSideEffectImports": true,
     "noFallthroughCasesInSwitch": true,
+    "noUnusedParameters": true,
+    "noUnusedLocals": true,
+    "noImplicitReturns": true,
+    "noImplicitAny": true,
 
     // Output
     "noEmit": true
